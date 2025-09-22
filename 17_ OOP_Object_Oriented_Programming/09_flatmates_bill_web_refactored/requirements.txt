@@ -1,0 +1,7 @@
+Flask==2.3.3
+Flask-WTF==1.1.1
+WTForms==3.0.1
+fpdf==1.7.2
+filestack-python==4.0.0
+requests>=2.31.0
+Werkzeug==2.3.7

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calorie Calculator Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+<h2>Calories Calculation Form</h2>
+<p>Fill in the form and click the button to know how many calories you need!</p>
+<form action="/calories_form" method="post">
+    <p>Let's get some info about you first.</p>
+    {{ caloriesform.weight.label }} {{ caloriesform.weight }}
+    {% if caloriesform.weight.errors %}
+        <div style="color: red;">{{ caloriesform.weight.errors[0] }}</div>
+    {% endif %}
+    <br>
+    
+    {{ caloriesform.height.label }} {{ caloriesform.height }}
+    {% if caloriesform.height.errors %}
+        <div style="color: red;">{{ caloriesform.height.errors[0] }}</div>
+    {% endif %}
+    <br>
+    
+    {{ caloriesform.age.label }} {{ caloriesform.age }}
+    {% if caloriesform.age.errors %}
+        <div style="color: red;">{{ caloriesform.age.errors[0] }}</div>
+    {% endif %}
+    <br>
+    
+    <hr>
+    <p>Today's weather counts too. <br> Tell us where you are so we include today's temperature into the calculations.</p>
+    
+    {{ caloriesform.city.label }} {{ caloriesform.city }}
+    {% if caloriesform.city.errors %}
+        <div style="color: red;">{{ caloriesform.city.errors[0] }}</div>
+    {% endif %}
+    <br>
+    
+    {{ caloriesform.country.label }} {{ caloriesform.country }}
+    {% if caloriesform.country.errors %}
+        <div style="color: red;">{{ caloriesform.country.errors[0] }}</div>
+    {% endif %}
+    <br>
+
+    <br>
+    {{ caloriesform.button }}
+    <br>
+    
+    {% if result == True %}
+        <h3>You need {{ calories }} calories (kcal) today</h3>
+    {% endif %}
+    
+    {% if error %}
+        <div style="color: red;">{{ error }}</div>
+    {% endif %}
+</form>
+
+<br>
+<a href="{{ url_for('homepage') }}">Back to Home</a>
+</body>
+</html>

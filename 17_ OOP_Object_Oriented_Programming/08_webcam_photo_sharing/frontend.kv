@@ -1,0 +1,84 @@
+<CameraScreen>:
+    GridLayout:
+        cols: 1
+        
+        
+        Camera:
+            id: camera
+            resolution: (640, 480)
+            allow_stretch: True
+            canvas.before:
+                PushMatrix
+                Rotate:
+                    angle: -90
+                    origin: self.center
+            canvas.after:
+                PopMatrix
+            size_hint_y: 0.8
+            opacity: 0
+            
+        Button:
+            id: camera_button
+            text: "Start Camera"
+            on_press: root.start_stop()
+            size_hint_y: 0.1
+            background_normal: '/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/normal.png'
+            background_down:'/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/down.png'
+
+        Button:
+            id: capture_button
+            text: "Capture"
+            on_press: root.capture_photo()
+            size_hint_y: 0.1
+            background_normal: '/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/normal.png'
+            background_down:'/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/down.png'
+            
+
+<ImageScreen>:
+    GridLayout:
+        padding: 10
+        spacing: 10
+        cols: 1
+        Image:
+            id: img
+            size_hint_y: 0.7
+        Button:
+            text: 'Create Sharable Link' 
+            on_press: root.create_link()
+            size_hint_y: 0.1
+            background_normal: '/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/normal.png'
+            background_down:'/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/down.png'
+
+        Label:
+            id: link
+            text: ''
+            size_hint_y: 0.1
+        GridLayout:
+            cols: 2
+            size_hint_y: 0.1
+            Button:
+                text: 'Copy Link'
+                on_press: root.copy_link()
+                
+            Button:
+                text: 'Open Link'
+                on_press: root.open_link()
+                background_normal: '/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/normal.png'
+                background_down:'/Users/adricati/Personal Development/intermediate-python-projects/17_ OOP_Object_Oriented_Programming/08_webcam_photo_sharing/images/down.png'
+                
+        
+
+
+<RootWidget>:
+    canvas.before:
+        Color:
+            rgba: (0.5, 0.2, 0.1, 1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    CameraScreen: 
+        id: camera_screen
+        name: "camera_screen"
+    ImageScreen:
+        id: image_screen
+        name: 'image_screen'

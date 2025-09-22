@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+<h2>Flatmates Bill Results</h2>
+<p> Bill Period: {{period}} </p>
+<p> Amount: {{amount}} </p>
+<ul>
+    <li>{{name1}} pays {{amount1}}</li>
+    <li>{{name2}} pays {{amount2}}</li>
+</ul>
+<button>
+    <a href="{{ url_for('bill_form_page') }}">Go back to the bill page</a>
+</button>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatmates Bill Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Flatmates Bill Calculator</h1>
+        <p>Fill in the form and click the button to calculate how much each flatmate should pay.</p>
+        
+        <form action="{{ url_for('results') }}" method="post">
+            {{ billform.hidden_tag() }}
+            
+            <div class="form-section">
+                <h3>Bill Information</h3>
+                <div class="form-group">
+                    {{ billform.amount.label(class="form-label") }}
+                    {{ billform.amount(class="form-input") }}
+                    {% if billform.amount.errors %}
+                        <div class="error">{{ billform.amount.errors[0] }}</div>
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    {{ billform.period.label(class="form-label") }}
+                    {{ billform.period(class="form-input") }}
+                    {% if billform.period.errors %}
+                        <div class="error">{{ billform.period.errors[0] }}</div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>First Flatmate</h3>
+                <div class="form-group">
+                    {{ billform.name1.label(class="form-label") }}
+                    {{ billform.name1(class="form-input") }}
+                    {% if billform.name1.errors %}
+                        <div class="error">{{ billform.name1.errors[0] }}</div>
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    {{ billform.days_in_house1.label(class="form-label") }}
+                    {{ billform.days_in_house1(class="form-input") }}
+                    {% if billform.days_in_house1.errors %}
+                        <div class="error">{{ billform.days_in_house1.errors[0] }}</div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h3>Second Flatmate</h3>
+                <div class="form-group">
+                    {{ billform.name2.label(class="form-label") }}
+                    {{ billform.name2(class="form-input") }}
+                    {% if billform.name2.errors %}
+                        <div class="error">{{ billform.name2.errors[0] }}</div>
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    {{ billform.days_in_house2.label(class="form-label") }}
+                    {{ billform.days_in_house2(class="form-input") }}
+                    {% if billform.days_in_house2.errors %}
+                        <div class="error">{{ billform.days_in_house2.errors[0] }}</div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="form-section">
+                {{ billform.submit(class="btn btn-primary") }}
+            </div>
+        </form>
+    </div>
+</body>
+</html>

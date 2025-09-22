@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculation Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Bill Calculation Results</h1>
+        
+        <div class="results-section">
+            <h3>Payment Breakdown:</h3>
+            <div class="result-item">
+                <strong>{{ flatmate1.name }}</strong> pays: <span class="amount">${{ flatmate1_pay }}</span>
+            </div>
+            <div class="result-item">
+                <strong>{{ flatmate2.name }}</strong> pays: <span class="amount">${{ flatmate2_pay }}</span>
+            </div>
+        </div>
+
+        <div class="results-section">
+            <h3>PDF Report:</h3>
+            {% if file_url.startswith('http') %}
+                <p>Your bill report has been generated and shared!</p>
+                <a href="{{ file_url }}" target="_blank" class="btn btn-secondary">View/Download PDF Report</a>
+            {% else %}
+                <p>{{ file_url }}</p>
+            {% endif %}
+        </div>
+
+        <div class="results-section">
+            <a href="{{ url_for('index') }}" class="btn btn-primary">Calculate Another Bill</a>
+        </div>
+    </div>
+</body>
+</html>

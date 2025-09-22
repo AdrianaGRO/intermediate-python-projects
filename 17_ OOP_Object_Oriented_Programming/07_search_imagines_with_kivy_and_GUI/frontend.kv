@@ -1,0 +1,25 @@
+<FirstScreen>:
+    GridLayout:
+        cols: 1
+        padding: 10
+        spacing: 10
+        Image:
+            id: img
+            fit_mode: "contain"
+
+        TextInput:
+            id: user_query
+            size_hint_y: 0.1
+
+        Button:
+            text: 'Search Image'
+            size_hint_y: 0.1
+            on_press: root.search_image()
+
+
+
+
+<RootWidget>:
+    FirstScreen:
+        id: FirstScreen_screen
+        name: 'first_screen'

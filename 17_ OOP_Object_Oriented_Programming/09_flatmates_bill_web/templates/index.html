@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flatmates Bill</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+<div class="index-container">
+    <h2>Flatmates' Bill</h2>
+    <h3><center>This web app is useful to split a bill between two flatmates.</center></h3>
+    <button>
+        <a href="{{ url_for('bill_form_page') }}">Go to the bill page</a>
+    </button>
+</div>
+</body>
+</html>
