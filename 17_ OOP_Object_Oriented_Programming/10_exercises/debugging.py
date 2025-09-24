@@ -21,3 +21,4 @@ class Calorie:
     
 calorie = Calorie(weight=63, height=173, age=49, temperature=22)
 calorie = calorie.kj_to_kcal(calorie.get_kj())
+print("GIT")
