@@ -1,0 +1,30 @@
+{
+    "Amazon": {
+        "email": "example@example.com",
+        "password": "Updaterpass"
+    },
+    "amazon": {
+        "email": "example@example.com",
+        "password": "ama1234"
+    },
+    "emag": {
+        "email": "example@example.com",
+        "password": "1r2HOA[#dK,`"
+    },
+    "fashiondays": {
+        "email": "example@example.com",
+        "password": "$XS@UK+CHY*I"
+    },
+    "mypass": {
+        "email": "example@example.com",
+        "password": "aF*t%ZpO(~W|"
+    },
+    "carrefour": {
+        "email": "example@example.com",
+        "password": "yGIDQ1@CO%SR"
+    },
+    "auchan": {
+        "email": "example@example.com",
+        "password": "nPm9WuO&Q_$;"
+    }
+}

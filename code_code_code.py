@@ -137,22 +137,70 @@ import heroes
 
 
 
-from turtle import Turtle, Screen
-import random
-import heroes
+# from turtle import Turtle, Screen
+# import random
+# import heroes
 
-colors = ["red", "green", "blue", "yellow", "purple", "orange"]
+# colors = ["red", "green", "blue", "yellow", "purple", "orange"]
 
-t = Turtle()
-t.shape("circle")
-t.color(random.choice(colors))
+# t = Turtle()
+# t.shape("circle")
+# t.color(random.choice(colors))
 
-#drawing a square
+# #drawing a square
 
-for _ in range(4):
-    t.forward(100)
-    t.right(90)
+# for _ in range(4):
+#     t.forward(100)
+#     t.right(90)
 
 
-screen = Screen ()
-screen.exitonclick()
+# screen = Screen ()
+# screen.exitonclick()
+
+
+# try:
+#     file = open("a_file.txt")
+#     a_dictionary = {"key": "value"}
+#     print(a_dictionary["key"])
+# except FileNotFoundError:
+#     file = open("a_file.txt", "w")
+#     file.write("This is a new file.")
+#     print("File not found, creating it now!")
+# except KeyError as error_message:
+#     print(f"The key {error_message} does not exist!")
+    
+# else:
+#     content = file.read()
+#     print(content)
+    
+# finally:
+#     raise KeyError("This is an error that I made up")
+
+# height = float(input("Height: "))
+# weight = float(input("Weight: "))
+
+
+# if height > 3:
+#     raise ValueError("Human height should not be over 3 meters.")
+
+# bmi = round(weight / height ** 2)
+# print(bmi)
+
+
+"""Exercise
+
+IndexError Handling
+Issue 
+
+We've got some buggy code. Try running the code. The code will crash and give you an IndexError.
+This is because we're looking through the list of fruits for an index that is out of range. 
+
+Objective 
+
+Use what you've learnt about exception handling to prevent the program from crashing. 
+If the user enters something that is out of range just print a default output of "Fruit pie". 
+
+IMPORTANT: The exception handling should NOT allow each fruit to be printed when
+there is an exception. e.g. it should not print out Apple pie, Pear pie and Orange pie, 
+when there is an exception it should only print "Fruit pie". """
+
