@@ -1,0 +1,480 @@
+[
+  {
+    "date": "2025-10-15",
+    "category": "nordic",
+    "total_requests": 6,
+    "flight_deals": [
+      {
+        "destination": "Helsinki",
+        "destination_code": "HEL",
+        "price": 92.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:18.789482"
+      },
+      {
+        "destination": "Helsinki",
+        "destination_code": "HEL",
+        "price": 119.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:18.789505"
+      },
+      {
+        "destination": "Stockholm",
+        "destination_code": "ARN",
+        "price": 41.32,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:23.508065"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:27.354211"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:27.354225"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:27.354230"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:27.354234"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 117.75,
+        "airline": "JU",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:27.354239"
+      },
+      {
+        "destination": "Copenhagen",
+        "destination_code": "CPH",
+        "price": 83.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:32.884836"
+      },
+      {
+        "destination": "Copenhagen",
+        "destination_code": "CPH",
+        "price": 119.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "found_at": "2025-10-15T16:32:32.884861"
+      }
+    ],
+    "hotel_deals": [],
+    "cheapest_flight": {
+      "destination": "Stockholm",
+      "destination_code": "ARN",
+      "price": 41.32,
+      "airline": "D8",
+      "currency": "EUR",
+      "departure_date": "2025-10-16",
+      "found_at": "2025-10-15T16:32:23.508065"
+    },
+    "cheapest_hotel": null
+  },
+  {
+    "date": "2025-10-15",
+    "category": "nordic",
+    "total_requests": 6,
+    "flight_deals": [
+      {
+        "destination": "Helsinki",
+        "destination_code": "HEL",
+        "price": 92.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/HEL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-HEL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDHELQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:40:35.217534"
+      },
+      {
+        "destination": "Helsinki",
+        "destination_code": "HEL",
+        "price": 119.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/HEL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-HEL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDHELQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "2",
+        "found_at": "2025-10-15T16:40:35.217561"
+      },
+      {
+        "destination": "Stockholm",
+        "destination_code": "ARN",
+        "price": 41.32,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/ARN/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-ARN/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDARNQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:40:40.295272"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:40:44.165153"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "2",
+        "found_at": "2025-10-15T16:40:44.165207"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "3",
+        "found_at": "2025-10-15T16:40:44.165237"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "4",
+        "found_at": "2025-10-15T16:40:44.165265"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.75,
+        "airline": "JU",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "JU"
+        },
+        "offer_id": "5",
+        "found_at": "2025-10-15T16:40:44.165291"
+      },
+      {
+        "destination": "Copenhagen",
+        "destination_code": "CPH",
+        "price": 83.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/CPH/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-CPH/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDCPHQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:40:49.108943"
+      },
+      {
+        "destination": "Copenhagen",
+        "destination_code": "CPH",
+        "price": 119.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/CPH/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-CPH/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDCPHQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "2",
+        "found_at": "2025-10-15T16:40:49.108975"
+      }
+    ],
+    "hotel_deals": [],
+    "cheapest_flight": {
+      "destination": "Stockholm",
+      "destination_code": "ARN",
+      "price": 41.32,
+      "airline": "D8",
+      "currency": "EUR",
+      "departure_date": "2025-10-16",
+      "booking_link": {
+        "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/ARN/2025-10-16/",
+        "kayak": "https://www.kayak.com/flights/OTP-ARN/2025-10-16",
+        "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDARNQAFIAWgBcgIIAQ",
+        "airline": "DY"
+      },
+      "offer_id": "1",
+      "found_at": "2025-10-15T16:40:40.295272"
+    },
+    "cheapest_hotel": null
+  },
+  {
+    "date": "2025-10-15",
+    "category": "nordic",
+    "total_requests": 6,
+    "flight_deals": [
+      {
+        "destination": "Helsinki",
+        "destination_code": "HEL",
+        "price": 92.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/HEL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-HEL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDHELQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:44:40.953564"
+      },
+      {
+        "destination": "Helsinki",
+        "destination_code": "HEL",
+        "price": 119.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/HEL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-HEL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDHELQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "2",
+        "found_at": "2025-10-15T16:44:40.953614"
+      },
+      {
+        "destination": "Stockholm",
+        "destination_code": "ARN",
+        "price": 41.32,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/ARN/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-ARN/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDARNQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:44:45.269742"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:44:48.954609"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "2",
+        "found_at": "2025-10-15T16:44:48.954626"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "3",
+        "found_at": "2025-10-15T16:44:48.954636"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "4",
+        "found_at": "2025-10-15T16:44:48.954644"
+      },
+      {
+        "destination": "Oslo",
+        "destination_code": "OSL",
+        "price": 101.75,
+        "airline": "JU",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/OSL/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-OSL/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDOSLQAFIAWgBcgIIAQ",
+          "airline": "JU"
+        },
+        "offer_id": "5",
+        "found_at": "2025-10-15T16:44:48.954652"
+      },
+      {
+        "destination": "Copenhagen",
+        "destination_code": "CPH",
+        "price": 83.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/CPH/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-CPH/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDCPHQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "1",
+        "found_at": "2025-10-15T16:44:56.710062"
+      },
+      {
+        "destination": "Copenhagen",
+        "destination_code": "CPH",
+        "price": 119.5,
+        "airline": "D8",
+        "currency": "EUR",
+        "departure_date": "2025-10-16",
+        "booking_link": {
+          "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/CPH/2025-10-16/",
+          "kayak": "https://www.kayak.com/flights/OTP-CPH/2025-10-16",
+          "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDCPHQAFIAWgBcgIIAQ",
+          "airline": "DY"
+        },
+        "offer_id": "2",
+        "found_at": "2025-10-15T16:44:56.710096"
+      }
+    ],
+    "hotel_deals": [],
+    "cheapest_flight": {
+      "destination": "Stockholm",
+      "destination_code": "ARN",
+      "price": 41.32,
+      "airline": "D8",
+      "currency": "EUR",
+      "departure_date": "2025-10-16",
+      "booking_link": {
+        "skyscanner": "https://www.skyscanner.com/transport/flights/OTP/ARN/2025-10-16/",
+        "kayak": "https://www.kayak.com/flights/OTP-ARN/2025-10-16",
+        "google_flights": "https://www.google.com/travel/flights/search?tfs=CBwQAhooEgoyMDI1LTEwLTE2agcIARIDT1RQcgcIARIDARNQAFIAWgBcgIIAQ",
+        "airline": "DY"
+      },
+      "offer_id": "1",
+      "found_at": "2025-10-15T16:44:45.269742"
+    },
+    "cheapest_hotel": null
+  }
+]
